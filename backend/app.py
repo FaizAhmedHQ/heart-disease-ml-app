@@ -6,8 +6,8 @@ import numpy as np
 app = FastAPI()
 
 # Load model and scaler
-model = joblib.load("../model/heart_model.pkl")
-scaler = joblib.load("../model/scaler.pkl")
+model = joblib.load("model/heart_model.pkl")
+scaler = joblib.load("model/scaler.pkl")
 
 # Input schema
 class PatientData(BaseModel):
