@@ -137,7 +137,7 @@ with st.container():
         }
 
         res = requests.post(
-            "https://heart-disease-ml-app-mgbt.onrender.com/predict",
+            "http://127.0.0.1:8000/predict",
             json=payload
         )
 
